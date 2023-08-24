@@ -1,0 +1,57 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Media files
+media/
+
+# Static files
+staticfiles/
+
+# Environment variables
+.env
+
+# Compiled Python files
+*.pyc
+
+# Django development server
+*.pid
+
+# Local development settings
+local_settings.py
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Dependency directories
+venv/
+env/
+node_modules/
+
+# Compiled frontend assets
+static/dist/
+
+# Compiled translations
+locale/
+
+# Compiled documentation
+build/
+docs/_build/
+
+# Ignore secret keys and sensitive information
+*.secret
+*.key
+
+# Ignore migration files if you are not sharing your database
+*/migrations/
+
+# Ignore any other project-specific files or directories
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
